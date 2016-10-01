@@ -74,7 +74,7 @@ MetroKen.prototype.intentHandlers = {
               });
             }
 
-            response.tellWithCard(disruptions[0].content, "Hello World", "Hello World!");
+            response.tellWithCard(disruptions.join(' and '), "Hello World", "Hello World!");
           } else {
             console.log("Request failed");
           }

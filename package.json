@@ -1,0 +1,19 @@
+{
+  "name": "metroken",
+  "version": "1.0.0",
+  "description": "Gets service status of tyne and wear metro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "./node_modules/.bin/bestzip ../metroken.zip src/index.js src/alexa-skill.js node_modules"
+  },
+  "author": "Connor Smallman",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "bestzip": "^1.1.3"
+  }
+}

@@ -1,2 +1,2 @@
-# metro-ken
-Alexa skill set for Tyne &amp; wear metro service
+# Metro Ken
+Alexa skill set for Tyne &amp; Wear Metro
